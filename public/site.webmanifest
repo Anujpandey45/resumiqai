@@ -1,0 +1,17 @@
+{
+  "name": "resumiq.ai – Free Resume Builder & ATS Score Checker",
+  "short_name": "resumiq.ai",
+  "description": "Create an ATS-friendly resume with live PDF preview or check your resume score against any job description for free on resumiq.ai.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1d4ed8",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

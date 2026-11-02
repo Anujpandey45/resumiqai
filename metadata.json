@@ -1,0 +1,6 @@
+{
+  "name": "RESUMIQ AI",
+  "description": "Use our Free ATS Resume Checker, AI Resume Analyzer, and step-by-step Resume Builder. Scan PDF or Word resumes against any job description on resumiq.ai.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

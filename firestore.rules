@@ -1,0 +1,11 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // RESUMIQ AI stores all application records in Cloud SQL (PostgreSQL) via authenticated backend APIs.
+    // Default-deny all direct client Firestore reads and writes.
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
